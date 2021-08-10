@@ -1,5 +1,6 @@
 package com.gildedrose;
 
+//test
 class GildedRose {
     Item[] items;
 

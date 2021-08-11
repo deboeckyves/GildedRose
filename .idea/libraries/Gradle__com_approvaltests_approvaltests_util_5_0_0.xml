@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.approvaltests:approvaltests-util:5.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.approvaltests/approvaltests-util/5.0.0/d604cc6cc22d7a521dc8165239a62130d4b17343/approvaltests-util-5.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.approvaltests/approvaltests-util/5.0.0/ee118b91634e4c81cb18fa87684edadd112a19cf/approvaltests-util-5.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

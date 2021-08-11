@@ -4,4 +4,5 @@ public interface ToBeCalculatedItem {
 
     void updateSellIn();
     void updateQuality();
+
 }

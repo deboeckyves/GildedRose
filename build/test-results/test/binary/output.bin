@@ -1,158 +1,26 @@
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 0
-sellin before = 0
-quality after = 0
-sellin after = 0
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 50
-sellin before = 15
-in first if
-quality after = 49
-sellin after = 15
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 15
-sellin before = 15
-in first if
-quality after = 14
-sellin after = 15
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 0
-sellin before = 15
-in first if
-quality after = 0
-sellin after = 15
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-!set item in list to new object 
-	setting calculate item
 	infactory
-	update quality
-	in update quality
-	quality before = 15
-	sellin before = 0
-	quality after = 13
-	sellin after = 0
-	update sellin
-	!set item in list to new object 
-	setting calculate item
 	infactory
-	update quality
-	update sellin
-	!set item in list to new object 
-	setting calculate item
 	infactory
-	update quality
-	update sellin
-	!set item in list to new object 
-	setting calculate item
 	infactory
-	update quality
-	update sellin
-	!set item in list to new object 
-
-setting calculate item
 
 infactory
-
-update quality
-
-update sellin
-
-!set item in list to new object 

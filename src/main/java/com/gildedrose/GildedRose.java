@@ -1,5 +1,8 @@
 package com.gildedrose;
 
+import java.util.stream.Collector;
+import java.util.stream.Stream;
+
 //test
 class GildedRose {
     Item[] items;
@@ -10,17 +13,20 @@ class GildedRose {
 
     public void updateQuality() {
 
+        items = Stream.of(items)
+                .map(item -> ItemFactory.getItem(item))
+                .map(item -> {item.updateQuality(); return item;})
+                .map(item -> {item.updateSellIn(); return item;})
+                .map(item -> (Item) item)
+                .toArray(Item[]::new);
 
-        for (int i = 0; i < items.length; i++) {
-            System.out.println("setting calculate item");
+/*        for (int i = 0; i < items.length; i++) {
             ToBeCalculatedItem item = ItemFactory.getItem(items[i]);
-
-            System.out.println("update quality");
             item.updateQuality();
-            System.out.println("update sellin");
             item.updateSellIn();
-            System.out.println("set item in list to new object ");
-            items[i] = (Item) item;
+            items[i] = (Item) item;*/
+
+
             /*
             if (!items[i].name.equals("Aged Brie")
                     && !items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
@@ -69,7 +75,7 @@ class GildedRose {
                         items[i].quality = items[i].quality + 1;
                     }
                 }
-            }*/
-        }
+            }
+        }*/
     }
 }

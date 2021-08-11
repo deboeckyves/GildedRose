@@ -1,168 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-11T14:29:30" hostname="L-5CD0251RL9" time="0.186">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-11T15:08:13" hostname="L-5CD0251RL9" time="0.111">
   <properties/>
-  <testcase name="basicTest()" classname="com.gildedrose.GildedRoseTest" time="0.11"/>
-  <testcase name="backstagePass10DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.013"/>
-  <testcase name="backstagePass5DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
-  <testcase name="qualityNotOver50()" classname="com.gildedrose.GildedRoseTest" time="0.031"/>
-  <testcase name="normalCases()" classname="com.gildedrose.GildedRoseTest" time="0.005"/>
-  <testcase name="backstagePas6DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualityNotNegative()" classname="com.gildedrose.GildedRoseTest" time="0.007"/>
-  <testcase name="sellDatePassed()" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
-  <testcase name="backstagePass11DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
-  <system-out><![CDATA[setting calculate item
+  <testcase name="basicTest()" classname="com.gildedrose.GildedRoseTest" time="0.072"/>
+  <testcase name="backstagePass10DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.009"/>
+  <testcase name="backstagePass5DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="qualityNotOver50()" classname="com.gildedrose.GildedRoseTest" time="0.018"/>
+  <testcase name="normalCases()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePas6DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="qualityNotNegative()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="sellDatePassed()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="backstagePass11DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <system-out><![CDATA[infactory
 infactory
-update quality
-in update quality
-quality before = 0
-sellin before = 0
-quality after = 0
-sellin after = 0
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 50
-sellin before = 15
-in first if
-quality after = 49
-sellin after = 15
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 15
-sellin before = 15
-in first if
-quality after = 14
-sellin after = 15
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 0
-sellin before = 15
-in first if
-quality after = 0
-sellin after = 15
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-in update quality
-quality before = 15
-sellin before = 0
-quality after = 13
-sellin after = 0
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
 infactory
-update quality
-update sellin
-set item in list to new object 
-setting calculate item
-infactory
-update quality
-update sellin
-set item in list to new object 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

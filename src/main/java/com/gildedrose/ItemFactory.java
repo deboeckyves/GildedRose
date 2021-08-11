@@ -3,6 +3,7 @@ package com.gildedrose;
 public class ItemFactory {
 
     public static ToBeCalculatedItem getItem(Item item) {
+        System.out.println("infactory");
         switch (item.name) {
             case "standardItem": return new DefaultItem(item.name, item.sellIn, item.quality);
             case "Aged Brie": return new AgedBrie(item.name, item.sellIn, item.quality);

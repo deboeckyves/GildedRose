@@ -12,8 +12,14 @@ public class DefaultItem extends Item implements ToBeCalculatedItem {
 
     @Override
     public void updateQuality() {
-        if (quality > 0)
-        quality-=1;
-        else quality = 0;
+        System.out.println("in update quality");
+        System.out.println("quality before = " +quality);
+        System.out.println("sellin before = " +sellIn);
+        if (sellIn > 0) {
+            System.out.println("in first if");
+            quality = Math.max(--quality,0);}
+        if (sellIn <= 0 ) quality = Math.max(quality-2,0);
+        System.out.println("quality after = " +quality);
+        System.out.println("sellin after = " +sellIn);
     }
 }

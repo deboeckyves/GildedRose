@@ -14,8 +14,7 @@ public class AgedBrie extends Item implements ToBeCalculatedItem{
 
     @Override
     public void updateQuality() {
-        if (quality <= 50)
-        quality++;
-        quality = 50;
+        if (sellIn > 0) quality = Math.min(++quality,50);
+        if (sellIn <= 0 ) quality = Math.min(quality+2,50);
     }
 }

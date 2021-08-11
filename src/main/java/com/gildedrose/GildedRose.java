@@ -12,9 +12,14 @@ class GildedRose {
 
 
         for (int i = 0; i < items.length; i++) {
+            System.out.println("setting calculate item");
             ToBeCalculatedItem item = ItemFactory.getItem(items[i]);
+
+            System.out.println("update quality");
             item.updateQuality();
+            System.out.println("update sellin");
             item.updateSellIn();
+            System.out.println("set item in list to new object ");
             items[i] = (Item) item;
             /*
             if (!items[i].name.equals("Aged Brie")

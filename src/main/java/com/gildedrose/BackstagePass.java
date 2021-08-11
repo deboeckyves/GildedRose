@@ -12,11 +12,9 @@ public class BackstagePass extends Item implements ToBeCalculatedItem {
 
     @Override
     public void updateQuality() {
-        if ( sellIn > 10)
-            quality++;
-        else if (sellIn <= 10 && sellIn > 5) quality+=2;
-        else if (sellIn <= 5 && sellIn > 0) quality+=3;
+        if ( sellIn > 10) quality = Math.min(++quality,50);
+        else if (sellIn <= 10 && sellIn > 5) quality=Math.min(quality+2,50);
+        else if (sellIn <= 5 && sellIn > 0) quality=Math.min(quality+3,50);
         else quality = 0;
-
     }
 }

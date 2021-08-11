@@ -6,12 +6,12 @@ public class BackstagePass extends Item implements ToBeCalculatedItem {
         super(name, sellIn, quality);
     }
     @Override
-    public void calculateSellIn() {
+    public void updateSellIn() {
         sellIn--;
     }
 
     @Override
-    public void calculateQuality() {
+    public void updateQuality() {
         if ( sellIn > 10)
             quality++;
         else if (sellIn <= 10 && sellIn > 5) quality+=2;

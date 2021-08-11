@@ -1,3 +1,15 @@
+com/gildedrose/DefaultItem.java
+ com.gildedrose.DefaultItem
+com/gildedrose/BackstagePass.java
+ com.gildedrose.BackstagePass
+com/gildedrose/AgedBrie.java
+ com.gildedrose.AgedBrie
+com/gildedrose/ItemFactory.java
+ com.gildedrose.ItemFactory
+com/gildedrose/Sulfuras.java
+ com.gildedrose.Sulfuras
+com/gildedrose/ToBeCalculatedItem.java
+ com.gildedrose.ToBeCalculatedItem
 com/gildedrose/GildedRose.java
  com.gildedrose.GildedRose
 com/gildedrose/Item.java

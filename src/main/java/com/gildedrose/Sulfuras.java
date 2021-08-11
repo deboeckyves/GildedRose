@@ -7,12 +7,12 @@ public class Sulfuras extends Item implements ToBeCalculatedItem {
     }
 
     @Override
-    public void calculateSellIn() {
+    public void updateSellIn() {
         sellIn = sellIn;
     }
 
     @Override
-    public void calculateQuality() {
+    public void updateQuality() {
         quality = quality;
     }
 }

@@ -6,14 +6,14 @@ public class DefaultItem extends Item implements ToBeCalculatedItem {
         super(name, sellIn, quality);
     }
     @Override
-    public int calculateSellIn() {
-        return sellIn-1;
+    public void updateSellIn() {
+        sellIn--;
     }
 
     @Override
-    public int calculateQuality() {
+    public void updateQuality() {
         if (quality > 0)
-        return quality-1;
-        else return 0;
+        quality-=1;
+        else quality = 0;
     }
 }

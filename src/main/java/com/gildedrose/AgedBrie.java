@@ -8,12 +8,12 @@ public class AgedBrie extends Item implements ToBeCalculatedItem{
 
 
     @Override
-    public void calculateSellIn() {
+    public void updateSellIn() {
         sellIn--;
     }
 
     @Override
-    public void calculateQuality() {
+    public void updateQuality() {
         if (quality <= 50)
         quality++;
         quality = 50;

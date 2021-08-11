@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-10T15:45:50" hostname="L-5CD0251RL9" time="0.066">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-11T13:34:56" hostname="L-5CD0251RL9" time="0.133">
   <properties/>
-  <testcase name="basicTest()" classname="com.gildedrose.GildedRoseTest" time="0.053"/>
-  <testcase name="backstagePass10DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="backstagePass5DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualityNotOver50()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="normalCases()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="backstagePas6DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="qualityNotNegative()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="sellDatePassed()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
-  <testcase name="backstagePass11DaysLeft()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="basicTest()" classname="com.gildedrose.GildedRoseTest" time="0.133"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

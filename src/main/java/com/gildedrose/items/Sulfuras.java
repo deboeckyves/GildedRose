@@ -1,4 +1,7 @@
-package com.gildedrose;
+package com.gildedrose.items;
+
+import com.gildedrose.Item;
+import com.gildedrose.ToBeCalculatedItem;
 
 public class Sulfuras extends Item implements ToBeCalculatedItem {
 

@@ -3,9 +3,9 @@ package com.gildedrose.items;
 import com.gildedrose.Item;
 import com.gildedrose.interfaces.NonLegendaryItem;
 
-public class AgedBrie extends Item implements NonLegendaryItem {
+public class Conjured extends Item implements NonLegendaryItem {
 
-    public AgedBrie(String name, int sellIn, int quality) {
+    public Conjured(String name, int sellIn, int quality) {
         super(name, sellIn, quality);
     }
 
@@ -22,10 +22,10 @@ public class AgedBrie extends Item implements NonLegendaryItem {
     }
 
     public int updateDefault() {
-        return Math.min(++quality,50);
+        return Math.max(quality-2,0);
     }
 
     public int updateExpired() {
-        return Math.min(quality+2,50);
+        return Math.max(quality-4,0);
     }
 }

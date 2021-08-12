@@ -1,9 +1,9 @@
 package com.gildedrose.items;
 
 import com.gildedrose.Item;
-import com.gildedrose.ToBeCalculatedItem;
+import com.gildedrose.interfaces.NonLegendaryItem;
 
-public class BackstagePass extends Item implements ToBeCalculatedItem {
+public class BackstagePass extends Item implements NonLegendaryItem {
 
     public BackstagePass(String name, int sellIn, int quality) {
         super(name, sellIn, quality);
@@ -22,7 +22,7 @@ public class BackstagePass extends Item implements ToBeCalculatedItem {
         else quality = updateExpired();
     }
 
-    private int updateDefault() {
+    public int updateDefault() {
         return Math.min(++quality,50);
     }
 
@@ -34,7 +34,7 @@ public class BackstagePass extends Item implements ToBeCalculatedItem {
         return Math.min(quality+3,50);
     }
 
-    private int updateExpired() {
+    public int updateExpired() {
         return 0;
     }
 }

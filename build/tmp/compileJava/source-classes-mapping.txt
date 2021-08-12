@@ -1,16 +1,22 @@
-com/gildedrose/ToBeCalculatedItem.java
- com.gildedrose.ToBeCalculatedItem
 com/gildedrose/Item.java
  com.gildedrose.Item
-com/gildedrose/GildedRose.java
- com.gildedrose.GildedRose
-com/gildedrose/items/Sulfuras.java
- com.gildedrose.items.Sulfuras
-com/gildedrose/items/BackstagePass.java
- com.gildedrose.items.BackstagePass
 com/gildedrose/items/DefaultItem.java
  com.gildedrose.items.DefaultItem
+com/gildedrose/interfaces/LegendaryItem.java
+ com.gildedrose.interfaces.LegendaryItem
 com/gildedrose/ItemFactory.java
  com.gildedrose.ItemFactory
+com/gildedrose/interfaces/ToBeCalculatedItem.java
+ com.gildedrose.interfaces.ToBeCalculatedItem
+com/gildedrose/interfaces/NonLegendaryItem.java
+ com.gildedrose.interfaces.NonLegendaryItem
 com/gildedrose/items/AgedBrie.java
  com.gildedrose.items.AgedBrie
+com/gildedrose/items/BackstagePass.java
+ com.gildedrose.items.BackstagePass
+com/gildedrose/GildedRose.java
+ com.gildedrose.GildedRose
+com/gildedrose/items/Conjured.java
+ com.gildedrose.items.Conjured
+com/gildedrose/items/Sulfuras.java
+ com.gildedrose.items.Sulfuras

@@ -21,7 +21,7 @@ class GildedRoseTest {
                 new Item("Aged Brie", 15, 15),
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 15, 15),
-                //new Item("Conjured Mana Cake", 15, 15)
+                new Item("Conjured item", 15, 15)
         };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
@@ -34,11 +34,12 @@ class GildedRoseTest {
         //Sulfuras, Hand of Ragnaros
         assertEquals(0, app.items[2].sellIn);
         assertEquals(80, app.items[2].quality);
-        //Conjured item
+        //Backstage passes
         assertEquals(14, app.items[3].sellIn);
         assertEquals(16, app.items[3].quality);
-        //assertEquals(14, app.items[4].sellIn);
-        //assertEquals(13, app.items[4].quality);
+        //Conjured item
+        assertEquals(14, app.items[4].sellIn);
+        assertEquals(13, app.items[4].quality);
     }
 
     @Test
@@ -48,7 +49,7 @@ class GildedRoseTest {
                 new Item("Aged Brie", 0, 15),
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 0, 15),
-                //new Item("Conjured Mana Cake", 0, 15)
+                new Item("Conjured item", 0, 15)
         };
         GildedRose app = new GildedRose(items);
 
@@ -67,8 +68,8 @@ class GildedRoseTest {
         assertEquals(-1, app.items[3].sellIn);
         assertEquals(0, app.items[3].quality);
         //Conjured item
-        //assertEquals(-1, app.items[4].sellIn);
-        //assertEquals(11, app.items[4].quality);
+        assertEquals(-1, app.items[4].sellIn);
+        assertEquals(11, app.items[4].quality);
     }
 
     @Test
@@ -78,7 +79,7 @@ class GildedRoseTest {
                 new Item("Aged Brie", 15, 0),
                 new Item("Sulfuras, Hand of Ragnaros", 0, 80),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 15, 0),
-                //new Item("Conjured Mana Cake", 15, 0)
+                new Item("Conjured item", 15, 0)
         };
         GildedRose app = new GildedRose(items);
 
@@ -97,8 +98,8 @@ class GildedRoseTest {
         assertEquals(14, app.items[3].sellIn);
         assertEquals(1, app.items[3].quality);
         //Conjured item
-        //assertEquals(14, app.items[4].sellIn);
-        //assertEquals(0, app.items[4].quality);
+        assertEquals(14, app.items[4].sellIn);
+        assertEquals(0, app.items[4].quality);
     }
 
     @Test
@@ -112,7 +113,7 @@ class GildedRoseTest {
                 new Item("Backstage passes to a TAFKAL80ETC concert", 5, 50),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 10, 49),
                 new Item("Backstage passes to a TAFKAL80ETC concert", 5, 48),
-                //new Item("Conjured Mana Cake", 15, 0)
+                new Item("Conjured item", 15, 50)
         };
         GildedRose app = new GildedRose(items);
 
@@ -134,9 +135,13 @@ class GildedRoseTest {
         assertEquals(50, app.items[4].quality);
         assertEquals(4, app.items[5].sellIn);
         assertEquals(50, app.items[5].quality);
+        assertEquals(9, app.items[6].sellIn);
+        assertEquals(50, app.items[6].quality);
+        assertEquals(4, app.items[7].sellIn);
+        assertEquals(50, app.items[7].quality);
         //Conjured item
-        //assertEquals(14, app.items[4].sellIn);
-        //assertEquals(50, app.items[4].quality);
+        assertEquals(14, app.items[8].sellIn);
+        assertEquals(48, app.items[8].quality);
     }
 
     @Test
